@@ -130,7 +130,7 @@
     ".eslintrc.js",
     "dark:text-white"
   ],
-  "cSpell.ignoreWords": ["Lt_home"],
+  "cSpell.ignoreWords": ["nhaxenhanh"],
   "cSpell.words": ["datepicker", "heroicons", "languagedetector"]
   // "typescript.inlayHints.enumMemberValues.enabled": true,
   // "typescript.inlayHints.variableTypes.enabled": true,

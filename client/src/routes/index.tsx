@@ -11,7 +11,7 @@ export const AppRoutes = () => {
   const location = useLocation();
   const currentPath = location.pathname;
   useEffect(() => {
-    const metaTitle = "Lt_homeStudio";
+    const metaTitle = "nhaxenhanh";
     document.title = metaTitle;
 
     if (currentPath !== "/") {

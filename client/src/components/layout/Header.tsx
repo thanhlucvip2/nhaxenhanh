@@ -48,10 +48,10 @@ export const Header = (props: HeaderProps) => {
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
                 className="h-8 mr-3"
-                alt="Lt_home Logo"
+                alt="nhaxenhanh Logo"
               />
               <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                Lt_home
+                nhaxenhanh
               </span>
             </a>
           </div>
