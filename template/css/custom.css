@@ -1,0 +1,47 @@
+.background-banner {
+  background: rgba(51, 51, 51, 0.8); /* Màu nền nhạt với độ trong suốt */
+  padding: 20px; /* Khoảng cách bên trong */
+  text-align: center; /* Căn giữa văn bản */
+  border-radius: 10px; /* Bo góc cho background-banner */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  font-family: "Arial", sans-serif; /* Phông chữ */
+}
+
+.background-banner h1 {
+  font-size: 3rem; /* Kích thước chữ lớn cho tiêu đề */
+  color: #01d28e; /* Màu chữ nổi bật */
+  margin: 0; /* Xóa khoảng cách mặc định */
+  font-weight: bold; /* Đậm chữ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Đổ bóng cho chữ */
+}
+
+.background-banner p {
+  font-size: 20px; /* Kích thước chữ cho mô tả */
+    color: #ffffff; /* Màu chữ tối */
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và mô tả */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Đổ bóng cho chữ mô tả */
+}
+.text-color-price {
+  color: #ed1c24;
+}
+.text-color-price span { 
+  text-decoration: line-through;
+}
+.background-imgs{
+  background-image: url('/images/z5839492614999_550928e3fde3a7b1331423ccf54080a6.jpg') !important
+}
+@media (max-width: 991px) {
+  .background-imgs{
+    background-image: url('/images/z5839506046505_ddc0fab02170181f8256c2f5184dd5c0.jpg') !important
+  }
+}
+
+@media (max-width: 480px) {
+  .background-imgs{
+    background-image: url('/images/z5839492614999_550928e3fde3a7b1331423ccf54080a6.jpg') !important
+  }
+}
+.text-shadow{
+  text-shadow: 3px 3px 4px rgb(0, 0, 0); /* Bóng đổ cho mô tả */
+}
+.phone-text{font-size: 20px;}

@@ -9023,7 +9023,7 @@ h1, h2, h3, h4, h5,
 .services.services-2 .icon {
   width: 110px;
   height: 110px;
-  background: #1089ff;
+  /* background: #1089ff; */
   border: none; }
   .services.services-2 .icon span {
     color: #fff; }
