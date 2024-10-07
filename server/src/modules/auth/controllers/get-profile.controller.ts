@@ -42,7 +42,7 @@ export class GetProfileController {
           user.role === ROLE.ADMIN.VALUE ? ROLE.ADMIN.LABEL : ROLE.USER.LABEL,
         id: user.id,
         email: user.email,
-        fullName: `${user.last_name} ${user.first_name}`,
+        fullName: `${user.first_name} ${user.last_name}`,
       };
 
       assign(resData, {

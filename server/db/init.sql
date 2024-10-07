@@ -11,7 +11,7 @@ INSERT INTO
 VALUES (
         '2024-05-06 00:00:00.000000',
         '2024-06-26 04:43:46.828775',
-        'admin@lthome.com',
+        'admin@nhaxenhanh.com',
         '$2a$10$PTqroDeNBFkIncryZMtyjuCzDjn4WTNxJ6gx9hKjI6AaUCqevk5cC',
         '1',
         'admin',

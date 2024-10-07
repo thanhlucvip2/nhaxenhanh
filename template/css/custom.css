@@ -45,3 +45,128 @@
   text-shadow: 3px 3px 4px rgb(0, 0, 0); /* Bóng đổ cho mô tả */
 }
 .phone-text{font-size: 20px;}
+.box-contact {
+  background-color: #0000002c;
+  border-radius: 10px;
+}
+.zalo-chat-widget {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  margin: 10px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+.zalo-chat-widget a img{
+  width: 50px;
+}
+.call-button {
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.call-button a {
+  background-color: #28a745;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.call-button a:hover {
+  background-color: #218838;
+  transform: scale(1.1);
+}
+
+.call-button i {
+  font-size: 24px;
+  transform: translate(-6%, -10%);
+}
+.box-about {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.box-about .title {
+  color: #1b7f4c;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.box-about .thanhbuoi {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.box-about .quality {
+  color: #1b7f4c;
+  font-weight: bold;
+}
+
+.box-about .images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box-about .image-card {
+  position: relative;
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.box-about .image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.box-about .logo {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.box-about .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.box-about .image-card h2 {
+  font-size: 18px;
+  color: #1b7f4c;
+  margin: 15px 0;
+}
+
+.box-about .image-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive cho thiết bị di động */
+@media (max-width: 1024px) {
+  .box-about .image-card {
+      width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-about .image-card {
+      width: 100%;
+  }
+}

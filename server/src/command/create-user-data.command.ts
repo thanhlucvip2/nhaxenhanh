@@ -16,7 +16,7 @@ export class CreateUserCommand {
       {
         created_at: getDateNowTimeZone(),
         updated_at: getDateNowTimeZone(),
-        email: 'admin@lthome.com',
+        email: 'admin@nhaxenhanh.com',
         password:
           '$2a$10$PTqroDeNBFkIncryZMtyjuCzDjn4WTNxJ6gx9hKjI6AaUCqevk5cC',
         first_name: '1',

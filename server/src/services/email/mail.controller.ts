@@ -40,11 +40,11 @@ export class MailController {
     try {
       const options = {
         to: mailDto.email,
-        from: 'LT HOME',
-        subject: 'Test Mail',
+        from: 'nhaxenhanh',
+        subject: 'nhaxenhanh',
         template: 'confirmation.hbs',
         context: {
-          name: 'hello mail',
+          name: mailDto.email,
         },
       };
 
