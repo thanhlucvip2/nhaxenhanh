@@ -170,3 +170,63 @@
       width: 100%;
   }
 }
+.box-info-car .container{
+  display: flex;
+}
+.box-info-car {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.box-info-car .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  position: relative;
+}
+
+.box-info-car .card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.box-info-car h2 {
+  font-size: 22px;
+  color: #e53935;
+  margin-bottom: 10px;
+}
+
+.box-info-car p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.box-info-car .price {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+.box-info-car .old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-weight: normal;
+}
+
+.box-info-car .sale-tag {
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+}
