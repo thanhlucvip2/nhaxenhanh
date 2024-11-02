@@ -295,7 +295,7 @@ label {
 
 // Remove the default `border-radius` that macOS Chrome adds.
 //
-// details at https://github.com/twbs/bootstrap/issues/24093
+// Details at https://github.com/twbs/bootstrap/issues/24093
 button {
   // stylelint-disable-next-line property-blacklist
   border-radius: 0;
@@ -333,7 +333,7 @@ select {
 
 // Remove the inheritance of word-wrap in Safari.
 //
-// details at https://github.com/twbs/bootstrap/issues/24990
+// Details at https://github.com/twbs/bootstrap/issues/24990
 select {
   word-wrap: normal;
 }
