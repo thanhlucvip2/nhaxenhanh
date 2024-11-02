@@ -8438,7 +8438,8 @@ h1, h2, h3, h4, h5,
     line-height: .8; }
 
 .featured-top {
-  margin-top: -250px; }
+  /* margin-top: -250px;  */
+}
 
 .request-form {
   background: #fff;
@@ -8706,7 +8707,7 @@ h1, h2, h3, h4, h5,
   background: #fff; }
   .car-wrap .img {
     width: 100%;
-    height: 220px; }
+    height: 354px; }
   .car-wrap .text {
     border-top: none;
     padding: 20px 30px 30px; }

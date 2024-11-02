@@ -28,7 +28,7 @@
   text-decoration: line-through;
 }
 .background-imgs{
-  background-image: url('/images/z5839492614999_550928e3fde3a7b1331423ccf54080a6.jpg') !important
+  background-image: url('/images/background.jpg') !important
 }
 @media (max-width: 991px) {
   .background-imgs{
@@ -36,11 +36,11 @@
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .background-imgs{
-    background-image: url('/images/z5839492614999_550928e3fde3a7b1331423ccf54080a6.jpg') !important
+    background-image: url('/images/background.jpg') !important
   }
-}
+} */
 .text-shadow{
   text-shadow: 3px 3px 4px rgb(0, 0, 0); /* Bóng đổ cho mô tả */
 }
@@ -172,8 +172,10 @@
 }
 .box-info-car .container{
   display: flex;
+
 }
 .box-info-car {
+  gap: 10px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -229,4 +231,25 @@
   top: 10px;
   right: 10px;
   border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+  .box-info-car {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box-info-car .card {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .box-info-car {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.space-evenly{
+  justify-content: space-evenly;
 }
